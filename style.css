@@ -1,0 +1,160 @@
+header {
+background-image: url('/images/logo.svg');
+background-repeat: no-repeat;
+height: 50px;
+width: 50px;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* BANNER */ 
+
+.banner{
+  background-image: url('images/kylie1.png');
+  background-repeat: :no-repeat;
+  background-size: cover;
+  height: 250px;
+  color: white;
+  text-align: center;
+  padding: 200px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+p{
+  font-size: 30px;
+  opacity: 0.8;
+}
+
+a{
+  background-color: pink;
+  padding: 12px 14px;
+  text-decoration: none;
+  color: white;
+}
+
+/* BUTTON */
+
+.btn-pink{
+  background-color: lightpink;
+  padding: 12px 14px;
+  text-decoration: none;
+  color: white;
+  width: 150px;
+  border-style: solid;
+  list-style: none;
+}
+
+.btn-pink:hover{
+  background-color: darkgrey;
+}
+
+/* CARD */
+
+.card{
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  padding: 20px;
+  box-shadow: 2px 2px 3px grey;
+  align-items: center;
+}
+
+.btn-pink2{
+  align-items: center;
+  justify-content: center;
+  background-color: lightpink;
+  padding: 12px 14px;
+  text-decoration: none;
+  color: white;
+  width: 150px;
+  border-style: solid;
+  list-style: none;
+}
+
+.btn-pink2:hover{
+  background-color: darkgrey;
+}
+
+.cardgrey{
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  padding: 20px;
+  box-shadow: 2px 2px 3px grey;
+  align-items: center;
+  background-color: lightgrey;
+  }
+
+.card_img{
+  width: 500px;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.card_content_p{
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+/* NAVBAR */ 
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  height: 70px;
+}
+
+.navbar{
+  text-align: center;
+  margin: 18px;
+  margin-right: 10px;
+  margin-bottom: -28px;
+}
+
+ .fa-user {color: pink;}
+ .fa-heart {color: pink;}
+ .fa-shopping-basket {color: pink;}
+
+ i{
+  font-size: 40px;
+  margin: 10px;
+ }
+
+ .video{
+  margin: 45px auto;
+  width: 700px;
+ }
+
+/* FOOTER */ 
+
+
+.contact{
+ margin: 15px auto;
+ width: 90px;
+}
+
+.btn-pink2{
+  margin: 30px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.roll-banner{
+  font-size: 80px;
+  margin-top: 50px;
+  margin-bottom: -100px;
+  background-color: rgba(243, 196, 211, 0.75);
+  color: white;
+  font-weight: bold;
+}
