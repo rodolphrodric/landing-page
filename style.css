@@ -116,7 +116,7 @@ a{
   text-align: center;
   margin: 18px;
   margin-right: 10px;
-  margin-bottom: -28px;
+  margin-bottom: -12px;
 }
 
  .fa-user {color: pink;}
@@ -150,7 +150,7 @@ a{
 .roll-banner{
   font-size: 80px;
   margin-top: 50px;
-  margin-bottom: -100px;
+  margin-bottom: -98px;
   background-color: rgba(243, 196, 211, 0.75);
   color: white;
   font-weight: bold;
